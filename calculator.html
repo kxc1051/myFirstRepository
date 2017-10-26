@@ -3,6 +3,16 @@
 <head>
     <title>Simple Calculator</title>
     <meta charset="utf-8">
+    
+    <style>
+        h1 {
+            font-family: monospace;
+        }
+        body{
+            background-color: #CACACA;
+        }
+        
+    </style>
 </head>
 <body>
 <h1>Calculator</h1>    
@@ -17,7 +27,7 @@
     </select>
     <input type="number" id="num2">
     <input type="button" value="=" onclick="compute();">
-    <input id="result">
+    <input type="number" id="result">
 <script>
 
 function compute(){
